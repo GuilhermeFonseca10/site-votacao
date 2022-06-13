@@ -1,0 +1,145 @@
+#navbar img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+}
+body{
+    min-height: 100vh;
+    padding-bottom: 100px;
+    position: relative;
+}
+header{
+    background-color: #fff;
+    border-bottom: 1px solid #ccc;
+}
+.row{
+    margin: 0;
+}
+.container-fluid{
+    padding: 0;
+}
+.btn-primary{
+    background-color: rgb(32, 138, 170);
+    border: 2px solid rgb(7, 51, 65);
+}
+.btn-primary:hover{
+    background-color:rgb(9, 84, 107);
+    border-color: rgb(12, 102, 129);
+}
+/*navbar*/
+#navbar{
+    justify-content: space-between;
+    background-color: #fff;
+    padding: 5px 25px;
+}
+#navbar a{
+    font-size: 16px;
+    color: black;
+    text-decoration: none;
+    padding: 10px;
+}
+#navbar a:hover{
+    color: rgb(32, 138, 170);
+}
+#search-container{
+    background-image: url("../img/banner.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    padding: 50px;
+    text-align: center;
+}
+#search-container h1{
+    margin-bottom: 30px;
+    font-weight: 900;
+}
+#search-container form{
+    width: 50%;
+    margin: 0 auto;
+}
+/*list*/
+#candidatos-container{
+    padding: 50px;
+    width: 100%;
+}
+
+#candidatos-container h2{
+    margin-bottom: 10px;
+}
+#candidatos-container .subtitle{
+color: #757575;
+margin-bottom: 30px;
+}
+#cards-container{
+    display: flex;
+    width: 100%;
+}
+#candidatos-container .card{
+
+    border-radius: 10px;
+    padding: 0px;
+    margin:2%;
+}
+#candidatos-container img{
+    max-height: 150px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+
+}
+.card .card-date{
+    font-size: 14px;
+    color: rgb(150, 146, 146);
+}
+.card .card-nome{
+    color:black;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+.card-numero{
+    font-size: 16px;
+    color: black;
+
+
+}
+/*criar candidato */
+#candidato-create-container{
+    padding: 30px;
+}
+#candidato-create-container label{
+    font-weight: bold;
+}
+#candidato-create-container input
+{
+    font-size: 16px;
+
+}
+.msg{
+    background-color: rgb(32, 138, 170);
+    color: #fff;
+    border: 1px sodid #000;
+    width: 100%;
+    margin-bottom: 0;
+    text-align: center;
+    padding: 10px;
+
+}
+hr{
+    width: 100px;
+    border-width: 5px;
+    border-radius: 3px;
+color: rgb(7, 51, 65);
+}
+
+footer{
+    text-align: center;
+    background-color: rgb(7, 51, 65);
+    color: #fff;
+    padding: 30px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+footer p{
+    margin-bottom: 0;
+}
